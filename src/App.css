@@ -1,0 +1,51 @@
+#root, html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.app{
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./images/city.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+}
+.card{
+    background-color: whitesmoke;
+    width: 40%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    /* text-align: center; */
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 5px 5px;
+}
+.heading{
+    display: flex;
+    align-items:center ;
+    height: 580px;
+    font-size: 40px;
+}
+button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
